@@ -1,13 +1,11 @@
-import './App.css';
-import FirstPage from './FirstPage.tsx/FirstPage';
-
+import FirstPage from "./FirstPage.tsx/FirstPage";
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <FirstPage />
     </div>
   );
-}
+};
 
 export default App;

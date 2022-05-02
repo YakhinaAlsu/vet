@@ -14,11 +14,13 @@
     "@typescript-eslint/parser": "^5.3.1",
     "antd": "^4.19.5",
     "eslint-config": "^0.3.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react-with-styles": "^2.4.0",
     "eslint-plugin-unicorn": "^42.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "6",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
@@ -51,7 +53,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
-    "eslint": "^7.32.0",
+    "eslint": "^8.14.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-prettier": "^4.0.0",

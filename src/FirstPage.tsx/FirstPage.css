@@ -1,0 +1,47 @@
+.container {
+  margin: auto;
+  width: 800px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  box-shadow: 0 3px 9px rgb(0 0 0 / 2%), 0 2px 8px rgb(0 0 0 / 8%);
+  /* max-width: 1140px; */
+}
+.wrapper--text {
+  display: flex;
+  justify-content: center;
+}
+.wrapper__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: auto;
+  padding: 15px;
+}
+
+.wrapper__login-admin {
+  background: url(../Page/admin.jpg);
+  height: 230px;
+  width: 280px;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 9px rgb(0 0 0 / 2%), 0 2px 8px rgb(0 0 0 / 8%);
+}
+.wrapper__login-client {
+  background: url(../Page/animal.png);
+  height: 230px;
+  width: 280px;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 9px rgb(0 0 0 / 2%), 0 2px 8px rgb(0 0 0 / 8%);
+}
